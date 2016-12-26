@@ -1,8 +1,20 @@
+salary = 4000
+
 puts "Salary"
-puts 1000 # its my salary
+puts salary # its my salary
 
 puts "Tax"
 puts 0.40
 
 puts "Final"
-puts 2000 * 0.40
+puts salary - salary * 0.40 # bug fixed!
+
+puts "Annual salary"
+puts salary * 12
+
+print "Enter your name: "
+myname = gets
+puts "Hello " + myname
+
+puts "Program finished. Press enter to exit"
+gets
